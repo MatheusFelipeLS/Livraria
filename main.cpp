@@ -35,7 +35,7 @@ int main() {
     //verifica se o programa deve ser fechado
     if(tipoDeEntrada == 0) {
       break;
-    }
+    }  
 
     if(tipoDeEntrada == 1) {
       cin.ignore();
