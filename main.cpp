@@ -20,7 +20,7 @@ int main() {
   string nome;
 
   while(true) {
-    tipoDeEntrada = -1;
+    tipoDeEntrada = -3;
     while(tipoDeEntrada < 0 || tipoDeEntrada > 2) {
       menu.opcoesDeEntrada();
       // Pergunta que o que o usuário quer fazer
@@ -28,7 +28,7 @@ int main() {
       cout << endl;
       //verifica se o usuário colocou um tipo válido
       if(tipoDeEntrada < 0 || tipoDeEntrada > 2) {
-        cout << "Opção inválida." << endl;
+        cout << "Opção inválida." << endl; 
       }
     } 
 
